@@ -1,0 +1,103 @@
+<html>
+	<body>
+		<image src="upload.png" style="margin-top: 19%;margin-left: 19%;height: 500px;width: 600px;"></image>
+		<input name="文件" type="file" style="font-size: 50px;width:200rpx;height:80px;margin-top: 25%;" id='file'><br>
+		<text style="font-size: 50px;"> 用户名</text>
+		<input name="发起人" type="text" placeholder="请输入用户名"
+			style="font-size: 50px;width:500rpx;height:100px;marborder-radius: 3rpx;margin-left: 2%;margin-top: 10%;"
+			id='initiatorName'><br>
+			
+		<div style="margin-top: 8%;">
+			<text style="font-size: 50px;"> 部门</text>
+			<select class="selectpicker1" id="eq_num" data-actions-box="true" data-live-search="true" style="font-size: 50px;height: 70px;margin-left: 7%;width: 690px;"> </select>
+		</div>
+		
+
+
+		
+
+
+
+		<button name="上传" onclick='submit()'
+			style="width:765px;height:100px;padding: 7px 0px;border-radius: 10px;background-color: #00A99D;margin-top: 15%;margin-left: 10%;font-size: 50px;color: #F0F8FF;"
+			id="upload_button"> 上 传
+		</button><br><br><br>
+
+		<!-- <text style="font-size:40px ;margin-top: 800px;">注意：点击上传后请耐心等待，未选择文件、未输入用户名都会导致上传失败！</text> -->
+
+	</body>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript">
+	
+	 window.onload = function() {
+	    var XX = getQuery('departmentName');
+		var m = XX.split(",");
+ 	    $('#eq_num').empty(); //清空select，不然每点一次都循环添加一遍数据越来越多
+	    for (var i = 0; i < m.length; i++) {
+	    	$(".selectpicker1").append('<option>' + m[i] + '</option>');
+	    };
+	  }; 
+	
+
+
+		function submit() {
+			let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+			var file = $('#file')[0].files[0];
+			var upload_button = document.getElementById('upload_button');
+			var formdata = new FormData();
+			formdata.append("file", file);
+			var x = $('#initiatorName').val(); //这里可以
+			formdata.append("initiatorName", x);
+			var y = document.getElementById('eq_num').value;
+			formdata.append("departmentName", y);
+			if (file == null) {
+				alert('请选择要上传的文件！');
+				return;
+			} else {
+				if (x == '') {
+					alert('请输入用户名！');
+					return;
+				} else {
+					upload_button.innerHTML = "正在上传";
+				}
+			}
+
+			$.ajax({
+				url: "http://47.108.143.150:23451/createFile/upload",
+				type: "POST",
+				data: formdata,
+				headers: {
+					'token': getQuery('token')
+				},
+				contentType: false,
+				// 告诉jQuery不要去设置Content-Type请求头
+				processData: false,
+				// 告诉jQuery不要去处理发送的数据
+				success: (data) => {
+					upload_button.innerHTML = "上  传";
+					console.log(data);
+					if (data.code == 200) {
+						alert(data.message);
+					} else {
+						if (!data.data) {
+							alert('文件已存在!');
+						} else {
+							alert(data.message);
+						}
+					}
+				},
+			});
+		}
+
+		function getQuery(name) {
+			// 正则：[找寻'&' + 'url参数名字' = '值' + '&']（'&'可以不存在）
+			let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+			let r = window.location.search.substr(1).match(reg);
+			if (r != null) {
+				// 对参数值进行解码
+				return decodeURIComponent(r[2]);
+			}
+			return null;
+		}
+	</script>
+</html>

@@ -1,0 +1,259 @@
+08-23 08:46:12.363 28061 28191 WPK start initialization and init args are: log_upload_mode:1, debug:true, appid:windvane, context:com.taobao.tao.TaobaoApplication@1d0a7b1, config_update_mode:1, 
+08-23 08:46:12.398 28061 28191 WPK finish initialization
+08-23 08:46:12.510 28061 28191 Actual config is updated, flatten config is:
+{
+  "cver": 0,
+  "cip": "127.0.0.1",
+  "stm": -1,
+  "ctm": -1,
+  "upload_compress": 1,
+  "flow_day": 0,
+  "flow_day[net:4g]": 0,
+  "flow_day[net:3g]": 0,
+  "flow_day[net:2g]": 0,
+  "flow_hour": 0,
+  "flow_hour[net:4g]": 0,
+  "flow_hour[net:3g]": 0,
+  "flow_hour[net:2g]": 0,
+  "flow_5min": 0,
+  "flow_5min[net:4g]": 0,
+  "flow_5min[net:3g]": 0,
+  "flow_5min[net:2g]": 0,
+  "upload_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "disk_bytes": 0,
+  "data_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "data_sampling_rate": 100,
+  "file_sampling_rate": 100,
+  "gate_way_https": true,
+  "conf_up_minutes": 480,
+  "conf_up_retry_seconds": 60,
+  "record_accumulation_time": 600,
+  "gate_way": "px.ucweb.com"
+}
+08-23 08:46:12.513 28061 28191 Update config from external set api:, config is:
+{
+  "cver": 1,
+  "config": {
+    "common": {
+      "u4_collect_url_query": true,
+      "u4_collect_url_ref": true,
+      "u4_bkpg_sampling_rate": 100,
+      "u4_t1t3detail_sampling_rate": 30,
+      "u4_resloadfail_sampling_rate": 10,
+      "u4_xhr_sampling_rate": 1,
+      "u4_jserr_sampling_rate": 100,
+      "u4_har_sampling_rate": 0.01
+    }
+  }
+}
+08-23 08:46:12.513 28061 28191 Default flatten config is:
+{
+  "cver": 0,
+  "cip": "127.0.0.1",
+  "stm": -1,
+  "ctm": -1,
+  "upload_compress": 1,
+  "flow_day": 0,
+  "flow_day[net:4g]": 0,
+  "flow_day[net:3g]": 0,
+  "flow_day[net:2g]": 0,
+  "flow_hour": 0,
+  "flow_hour[net:4g]": 0,
+  "flow_hour[net:3g]": 0,
+  "flow_hour[net:2g]": 0,
+  "flow_5min": 0,
+  "flow_5min[net:4g]": 0,
+  "flow_5min[net:3g]": 0,
+  "flow_5min[net:2g]": 0,
+  "upload_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "disk_bytes": 0,
+  "data_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "data_sampling_rate": 100,
+  "file_sampling_rate": 100,
+  "gate_way_https": true,
+  "conf_up_minutes": 480,
+  "conf_up_retry_seconds": 60,
+  "record_accumulation_time": 600,
+  "gate_way": "px.ucweb.com"
+}
+08-23 08:46:12.518 28061 28191 Actual config is updated, flatten config is:
+{
+  "cver": 0,
+  "cip": "127.0.0.1",
+  "stm": -1,
+  "ctm": -1,
+  "upload_compress": 1,
+  "flow_day": 0,
+  "flow_day[net:4g]": 0,
+  "flow_day[net:3g]": 0,
+  "flow_day[net:2g]": 0,
+  "flow_hour": 0,
+  "flow_hour[net:4g]": 0,
+  "flow_hour[net:3g]": 0,
+  "flow_hour[net:2g]": 0,
+  "flow_5min": 0,
+  "flow_5min[net:4g]": 0,
+  "flow_5min[net:3g]": 0,
+  "flow_5min[net:2g]": 0,
+  "upload_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "disk_bytes": 0,
+  "data_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "data_sampling_rate": 100,
+  "file_sampling_rate": 100,
+  "gate_way_https": true,
+  "conf_up_minutes": 480,
+  "conf_up_retry_seconds": 60,
+  "record_accumulation_time": 600,
+  "gate_way": "px.ucweb.com",
+  "u4_collect_url_query": true,
+  "u4_collect_url_ref": true,
+  "u4_bkpg_sampling_rate": 100,
+  "u4_t1t3detail_sampling_rate": 30,
+  "u4_resloadfail_sampling_rate": 10,
+  "u4_xhr_sampling_rate": 1,
+  "u4_jserr_sampling_rate": 100,
+  "u4_har_sampling_rate": 0.01
+}
+08-23 08:46:12.522 28061 28191 Update config from external set api:, config is:
+{
+  "cver": 1,
+  "config": {
+    "common": {
+      "u4_collect_url_query": true,
+      "u4_collect_url_ref": true,
+      "u4_bkpg_sampling_rate": 100,
+      "u4_t1t3detail_sampling_rate": 30,
+      "u4_resloadfail_sampling_rate": 10,
+      "u4_xhr_sampling_rate": 1,
+      "u4_jserr_sampling_rate": 100,
+      "u4_har_sampling_rate": 0.01
+    }
+  }
+}
+08-23 08:46:12.526 28061 28191 Default flatten config is:
+{
+  "cver": 0,
+  "cip": "127.0.0.1",
+  "stm": -1,
+  "ctm": -1,
+  "upload_compress": 1,
+  "flow_day": 0,
+  "flow_day[net:4g]": 0,
+  "flow_day[net:3g]": 0,
+  "flow_day[net:2g]": 0,
+  "flow_hour": 0,
+  "flow_hour[net:4g]": 0,
+  "flow_hour[net:3g]": 0,
+  "flow_hour[net:2g]": 0,
+  "flow_5min": 0,
+  "flow_5min[net:4g]": 0,
+  "flow_5min[net:3g]": 0,
+  "flow_5min[net:2g]": 0,
+  "upload_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "disk_bytes": 0,
+  "data_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "data_sampling_rate": 100,
+  "file_sampling_rate": 100,
+  "gate_way_https": true,
+  "conf_up_minutes": 480,
+  "conf_up_retry_seconds": 60,
+  "record_accumulation_time": 600,
+  "gate_way": "px.ucweb.com"
+}
+08-23 08:46:12.529 28061 28191 Actual config is updated, flatten config is:
+{
+  "cver": 0,
+  "cip": "127.0.0.1",
+  "stm": -1,
+  "ctm": -1,
+  "upload_compress": 1,
+  "flow_day": 0,
+  "flow_day[net:4g]": 0,
+  "flow_day[net:3g]": 0,
+  "flow_day[net:2g]": 0,
+  "flow_hour": 0,
+  "flow_hour[net:4g]": 0,
+  "flow_hour[net:3g]": 0,
+  "flow_hour[net:2g]": 0,
+  "flow_5min": 0,
+  "flow_5min[net:4g]": 0,
+  "flow_5min[net:3g]": 0,
+  "flow_5min[net:2g]": 0,
+  "upload_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "disk_bytes": 0,
+  "data_priority": {
+    "harLog": -1,
+    "pvuv": 9
+  },
+  "data_sampling_rate": 100,
+  "file_sampling_rate": 100,
+  "gate_way_https": true,
+  "conf_up_minutes": 480,
+  "conf_up_retry_seconds": 60,
+  "record_accumulation_time": 600,
+  "gate_way": "px.ucweb.com",
+  "u4_collect_url_query": true,
+  "u4_collect_url_ref": true,
+  "u4_bkpg_sampling_rate": 100,
+  "u4_t1t3detail_sampling_rate": 30,
+  "u4_resloadfail_sampling_rate": 10,
+  "u4_xhr_sampling_rate": 1,
+  "u4_jserr_sampling_rate": 100,
+  "u4_har_sampling_rate": 0.01
+}
+08-23 15:33:50.455 27453 27840 Receive log command, command id:6, command name:MSG_CMD_DATA_WITH_HEADER, log kind:record, log type:pvuv
+08-23 15:33:50.476 27453 27840 Receive log data. kind:record, log type:pvuv, with header:true, content:
+{"w_tm":"1566545630","w_url":"https:\/\/page.cainiao.com\/mcn\/tbcard2\/index.html","ps":"com.taobao.taobao","pid":"27453","stime":"1566521155963","type":"pvuv","fr":"android","mcc":"460","pkg":"com.taobao.taobao","vcode":"248","dsp_w":"1080","rom":"9","dsp_d":"300","wid":"4b377425-6f4f-45b7-aebf-25f9c486791f","tmem":"7668","sdkver":"1.0.0.5","ctime":"1566545630","model":"SEA-AL10","lang":"zh","dsp_dpi":"480","net":"wifi","brand":"HUAWEI","dsp_h":"2259","ver":"8.10.0","mnc":"02","ip":"192.168.1.6","bver":"8.10.0","appid":"windvane","amem":"2298","sdk":"28","tzone":"Asia\/Shanghai","crver":"3.20.0.15","crserial":"190727154248"}
+, header:
+{}
+08-23 15:33:50.477 27453 27840 Check data sampling. is passing:true, log kind: record, log type: pvuv, has sampling rate: true, sampling rate: 100
+08-23 15:33:50.479 27453 27840 LogUploadByCallbackPull success! log type:pvuv, headers:{}, part of log data:{"w_tm":"1566545630","w_url":"https:\/\/page.cainiao.com\/mcn\/tbcard2\/index.html","ps":"com.taobao
+08-23 15:34:08.440 27453 27840 Receive log command, command id:2, command name:MSG_CMD_NEW_FILE, log kind:file, log type:jserr
+08-23 15:34:08.440 27453 27840 Receive log command, command id:5, command name:MSG_CMD_HEADER, log kind:file, log type:jserr
+08-23 15:34:08.441 27453 27840 Receive log command, command id:3, command name:MSG_CMD_NEW_SECTION, log kind:file, log type:jserr
+08-23 15:34:08.441 27453 27840 Receive log command, command id:1, command name:MSG_CMD_DATA, log kind:file, log type:jserr
+08-23 15:34:08.441 27453 27840 Receive log data. kind:file, log type:jserr, with header:false, content:
+w_msg:Uncaught ReferenceError: Aplus4UT is not defined
+w_col:1
+w_file:https://page.cainiao.com/mcn/tbcard2/index.html
+w_linkID:F4EE52E2763BFB0ECB3A3301346DF532.1424237380
+w_line:1
+w_cnt:1
+w_tm:1566545648
+w_type:1
+w_frmid:F4EE52E2763BFB0ECB3A3301346DF532.1424237380
+w_url:https://page.cainiao.com/mcn/tbcard2/index.html
+, header:
+
+08-23 15:34:08.442 27453 27840 Receive log command, command id:4, command name:MSG_CMD_CLOSE_FILE, log kind:file, log type:jserr
+08-23 15:34:08.443 27453 27840 Receive log command, command id:4, command name:MSG_CMD_CLOSE_FILE, log kind:record, log type:pvuv
+08-23 15:34:08.445 27453 27840 Check file sampling, pass sampling:true, log type:jserr, sampling rate:100
+08-23 15:34:08.447 27453 27840 LogUploadByCallbackPull success! log type:jserr, headers:{link_id=F4EE52E2763BFB0ECB3A3301346DF532.1424237380}, part of log data:*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+section:global_head,kv,1.0,linebreak

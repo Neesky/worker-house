@@ -1,0 +1,267 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ 
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		
+		//登录页面
+		//员工页面
+		
+		//员工首页
+		{
+			"path": "pages/employee/employee",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"#9EC2EC"
+			}
+		},
+		
+		//增加员工
+		{
+		    "path" : "pages/addemployee/addemployee",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#9EC2EC"
+		    }  
+		},
+		//查看员工
+		{
+		    "path" : "pages/employeedetail/employeedetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#9EC2EC"
+		    }  
+		},
+		//修改员工
+		{
+		    "path" : "pages/editemployee/editemployee",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#9EC2EC"
+		    }  
+		},
+		
+		//职位
+		//职位首页
+		{
+		    "path" : "pages/position/position",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F4E5E8"
+		    }
+		},	
+		//增加职位
+		{
+		    "path" : "pages/addposition/addposition",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F4E5E8"
+		    }  
+		}
+		//修改职位
+		,{
+		    "path" : "pages/editposition/editposition",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F4E5E8"
+		    } 
+		}
+		//查看职位
+		,{
+		    "path" : "pages/positiondetail/positiondetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#F4E5E8"
+		    }
+		},
+		
+		//部门
+		//部门首页
+		{
+		    "path" : "pages/department/department",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E9E4FE"
+		    }
+		},
+		//增加部门
+		{
+			"path": "pages/adddepartment/adddepartment",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationBarBackgroundColor": "#E9E4FE"
+			}
+		}
+		//查看部门
+        ,{
+            "path" : "pages/departmentdetail/departmentdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E9E4FE"
+            }  
+        }
+       //修改部门
+        ,{
+            "path" : "pages/editdepartment/editdepartment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑Ta的信息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E9E4FE"
+            } 
+        }
+        
+		//首页
+		,{
+		    "path" : "pages/home/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		
+		//我的页面
+		,{
+		    "path" : "pages/my/my",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		
+		//工具页面
+		{
+		    "path" : "pages/tool/tool",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F8F8F8"
+		    } 
+		},
+		
+		//修改密码页面
+		{
+		    "path" : "pages/my/changePassword",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "修改密码",
+		        "enablePullDownRefresh": false
+		    }  
+		},
+		
+		//我的信息页面
+		{
+		    "path" : "pages/my/myInformation",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的信息",
+		        "enablePullDownRefresh": false
+		    }   
+		},
+
+		//公告
+		//增加公告
+        {
+            "path" : "pages/announcementAdd/announcementAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		//查看公告
+        ,{
+            "path" : "pages/announcementDetail/announcementDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+		//下载中心
+        
+		//下载
+		,{
+		    "path" : "pages/downloadCenter/upload",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#9EC2EC",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"position": "bottom",
+
+		"list": [{
+				"pagePath": "pages/tool/tool",
+				"iconPath": "static/tool.png",
+				"selectedIconPath": "static/tool2.png",
+				"text": "工具"
+			}, {
+				"pagePath": "pages/home/home",
+				"iconPath": "static/first.png",
+				"selectedIconPath": "static/first2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/mine2.png",
+				"text": "我的"
+			}
+		] 
+	}, 
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
